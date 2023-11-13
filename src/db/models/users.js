@@ -19,7 +19,7 @@ const User = (sequelize, Sequelize) => {
             unique: true
         },
         role:{
-            type: DataTypes.ENUM(["admin", "user", "moderator"]),
+            type: DataTypes.ENUM(["admin", "user"]),
             defaultValue: "user"
         },
         password: {
