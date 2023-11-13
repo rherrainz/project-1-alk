@@ -38,11 +38,12 @@ const User = (sequelize, Sequelize) => {
             defaultValue: null
         }},
     {});
+    //relaciones   
+    //
+    //
+
     return User;
 };
-//relaciones   
-//
-//
 
 export default User;
 
